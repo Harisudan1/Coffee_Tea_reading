@@ -23,8 +23,8 @@ def extract_pdf_text(pdf_path):
     return text
 
 # Extract reading documents
-coffee_pdf = "E:/Alesa AI/Coffee reading/coffee reading.pdf"
-tea_pdf = "E:/Alesa AI/Coffee reading/tea reading.pdf"
+coffee_pdf = "coffee reading.pdf"
+tea_pdf = "tea reading.pdf"
 
 coffee_reading = extract_pdf_text(coffee_pdf)
 tea_reading = extract_pdf_text(tea_pdf)
